@@ -1,0 +1,12 @@
+streamlit>=1.25.0
+python-pptx
+spacy
+transformers
+sentence-transformers
+newspaper3k
+requests
+matplotlib
+plotly
+bertopic
+scikit-learn
+PyYAML

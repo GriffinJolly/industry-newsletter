@@ -1,0 +1,24 @@
+# Configuration file for Newsletter Generator
+# Fill in your API keys and local model paths as needed
+
+news_api:
+  api_key: "YOUR_NEWS_API_KEY"
+  endpoint: "https://newsapi.org/v2/everything"
+  language: "en"
+
+gnews:
+  api_key: "YOUR_GNEWS_API_KEY"
+  endpoint: "https://gnews.io/api/v4/search"
+  language: "en"
+
+edgar:
+  rss_url: "https://www.sec.gov/Archives/edgar/usgaap.rss.xml"
+
+models:
+  summarizer: "models/summarizer/"
+  classifier: "models/classifier/"
+  ner: "models/NER/"
+
+output:
+  ppt_template: "ppt_generator/slide_templates.pptx"
+  output_dir: "output/"
